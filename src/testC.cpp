@@ -19,6 +19,6 @@ int main() {
 	{
 		cout<<i<<endl;
 	}
-	cout<<"done"<<endl;
+	cout<<"done"<<" "<<endl;
 	return 0;
 }

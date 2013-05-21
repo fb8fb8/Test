@@ -14,10 +14,11 @@ int main() {
 	int p;
 	cout<<"input a value:"<<endl;
 	cin>>p;
-	cout<<p;
+	cout<<p<<endl;
 	for(int i=0; i<3; i++)
 	{
 		cout<<i<<endl;
 	}
+	cout<<"done"<<endl;
 	return 0;
 }

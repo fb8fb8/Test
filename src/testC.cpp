@@ -6,7 +6,8 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include <iostream>
+#include<iostream>
+#include<climits>
 using namespace std;
 
 int main() {
@@ -20,5 +21,9 @@ int main() {
 		cout<<i<<endl;
 	}
 	cout<<"done"<<" "<<endl;
+	cout<<INT_MAX<<endl;
+	cout<<INT_MAX+1<<endl;
+	cout<<INT_MIN<<endl;
+	cout<<-INT_MIN<<endl;
 	return 0;
 }
